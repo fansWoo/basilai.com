@@ -1,0 +1,26 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2015-01-03 02:36:55 --> 404 Page Not Found --> favicon.ico
+ERROR - 2015-01-03 08:35:46 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 10:27:07 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 13:29:08 --> 404 Page Not Found --> code.jquery.com
+ERROR - 2015-01-03 13:29:09 --> 404 Page Not Found --> code.jquery.com
+ERROR - 2015-01-03 13:56:33 --> 404 Page Not Found --> robots.txt
+ERROR - 2015-01-03 20:46:55 --> 404 Page Not Found --> robots.txt
+ERROR - 2015-01-03 21:47:45 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:47:45 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:47:45 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:00 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:00 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:00 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:02 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:50 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:50 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:50 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:48:51 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:49:24 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:49:24 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:49:24 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:49:37 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:49:37 --> 404 Page Not Found --> app
+ERROR - 2015-01-03 21:49:37 --> 404 Page Not Found --> app

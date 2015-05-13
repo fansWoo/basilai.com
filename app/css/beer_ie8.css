@@ -1,0 +1,57 @@
+.content1{width:100%; height:800px; background:url(../img/product/centent1_bg.png)  bottom; padding-top:50px;}
+.content1 .area1{ width:25%; height:800px;float:left;}
+.content1 .area2{width:75%; height:800px;float:right; background-image:url(../img/ie8/bg1.png); position:relative;font-size:12px; color:#fff; letter-spacing:3px;}
+.content1 .area2 .beer1{ position:absolute; width:170px;top:180px; left:-70px; z-index:10;}
+.content1 .area2 .beer2{ position:absolute; width:210px; top:130px;left:-150px;z-index:11;}
+.content1 .area2 .wheat2{ position:absolute; width:400px; top:480px;left:0px;z-index:9;}
+.content1 .area2 .box img{width:180px;}
+.content1 .area2 .box p{ display:block;width:180px; margin-left:30px; margin-top:-10px;}
+.content1 .area2 .box.a{position:absolute; width:200px;height:150px;top:212px;left:120px;z-index:10; }
+.content1 .area2 .box.b{position:absolute; width:200px;height:150px;top:350px;left:120px;z-index:10; }
+
+.content1 .box{ font-size:14px;line-height:22px;}
+.content2 .box{ font-size:14px;line-height:22px;}
+.content3 .box{ font-size:14px;line-height:22px;}
+
+.content1 .area2  .textarea{ width:350px; height:350px;padding:30px;position:absolute; left:320px; top:110px;}
+.content1 .area2  .textarea .title{ width:380px;}
+.textarea .title { margin-bottom:20px;}
+.textarea .p1{font-size:18px; margin-bottom:10px;}
+.textarea p{ font-size:15px;line-height:22px; letter-spacing:3px; padding-left:10px;}
+/******************************************************************************/
+.content2{width:100%; height:800px;background:url(../img/product/centent2_bg.png) top;}
+.content2 .area1{ width:25%; height:800px;float:left;}
+.content2 .area2{width:75%; height:800px;float:right;  background-image:url(../img/ie8/bg4.png); position:relative;font-size:12px; color:#fff; letter-spacing:3px;}
+.content2 .area2 .beer1{position:absolute; width:560px;top:180px;left:-280px;z-index:10; }
+.content2 .area2 .wheat2{position:absolute; width:280px;top:350px;left:-30px; }
+.content2 .area2 .wheat3{display:none; position:absolute; width:30px; top:520px;left:420px;z-index:10;}
+.content2 .area2 .wheat4{display:none; position:absolute; width:30px; top:560px;left:580px;z-index:9;}
+.content2 .area2 .wheat5{display:none; position:absolute; width:30px; top:500px;left:400px;z-index:9; }
+.content2 .area2 .box img{width:180px;}
+.content2 .area2 .box p{ display:block;width:180px; margin-left:30px; margin-top:-10px;}
+.content2 .area2 .box.a{position:absolute; width:200px;height:150px;top:200px;left:80px;z-index:10;}
+.content2 .area2 .box.b{position:absolute; width:200px;height:150px;top:500px;left:140px;z-index:10;}
+.content2 .area2  .textarea{width:350px; height:350px; background-color:rgba(225,225,225,0); padding:30px;position:absolute;left:260px; top:110px;}
+.content2 .area2  .textarea .title{ width:450px;}
+/******************************************************************************/
+
+.content3{width:100%; height:800px;background:url(../img/product/centent3_bg.png) center;}
+.content3 .area1{ width:25%; height:800px;float:left;}
+.content3 .area2{width:75%; height:800px;float:right;background-image:url(../img/ie8/bg2.png); position:relative;font-size:12px; color:#fff; letter-spacing:3px;}
+.content3 .area2 .beer1{position:absolute; width:220px;top:110px;left:-130px;z-index:10;}
+.content3 .area2 .beer2{position:absolute; width:320px;top:470px;left:-20px;z-index:9;}
+.content3 .area2 .box img{width:180px;}
+.content3 .area2 .box p{ display:block;width:180px; margin-left:30px; margin-top:-10px;}
+.content3 .area2 .box.a{position:absolute; width:200px;height:150px;top:200px;left:80px;z-index:10;}
+.content3 .area2 .box.b{position:absolute; width:200px;height:150px;top:350px;left:80px;z-index:10;}
+.content3 .area2  .textarea{ width:350px; height:350px; background-color:rgba(225,225,225,0); padding:30px;position:absolute;left:280px; top:110px;}
+.content3 .area2  .textarea .title{ width:450px;}
+
+/******************************************************************************/
+
+
+.totem{position:fixed; width:208px;height:100%; left:0px; bottom:0px;background-image:url(../img/totem.png); z-index:1;opacity:1;}
+
+.wheat{position:fixed; width:260px;right:-70px;bottom:-120px;z-index:99;}
+.line{position:fixed; width:300px; left:50%; margin-left:450px; margin-top:300px;z-index:88; }
+.line img{width:100%;}

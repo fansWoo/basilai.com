@@ -1,0 +1,216 @@
+.content1{width:100%; height:800px; background:url(../img/product/centent1_bg.png) fixed bottom; padding-top:50px;}
+.content1 .area1{ width:25%; height:800px;float:left;}
+.content1 .area2{width:75%; height:800px;float:right; background-color:rgba(27,27,27,0.9); position:relative;font-size:12px; color:#fff; letter-spacing:3px;}
+.content1 .area2 .beer1{ position:absolute; width:170px;top:180px; left:-70px; z-index:10;-webkit-animation:p201410280617 1.68s;animation:p201410280617 1.8s; }
+.content1 .area2 .beer2{ position:absolute; width:210px; top:130px;left:-150px;z-index:11;-webkit-animation:p201410280617 1.3s;animation:p201410280617 1.3s;}
+@-webkit-keyframes p201410280617{
+	0%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280617{
+	0%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+.content1 .area2 .wheat2{ position:absolute; width:400px; top:480px;left:0px;z-index:9;-webkit-animation:p201410280618 1.9s;animation:p201410280618 1.9s;}
+@-webkit-keyframes p201410280618{
+	0%{ -webkit-transform: translate(-20px, -10px); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, -10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280618{
+	0%{ -webkit-transform: translate(-20px, -10px); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, -10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+.content1 .area2 .box img{width:180px;}
+.content1 .area2 .box p{ display:block;width:180px; margin-left:30px; margin-top:-10px;}
+.content1 .area2 .box.a{position:absolute; width:200px;height:150px;top:150px;left:120px;z-index:10;-webkit-animation:p201410280616 2s;animation:p201410280616 2s; }
+.content1 .area2 .box.b{position:absolute; width:200px;height:150px;top:350px;left:120px;z-index:10;-webkit-animation:p201410280616 2.5s;animation:p201410280616 2.5s; }
+@-webkit-keyframes p201410280616{
+	0%{ -webkit-transform: translate(0, 0); opacity:0; }
+	50%{ -webkit-transform: translate(0, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280616{
+	0%{ -webkit-transform: translate(0, 0); opacity:0; }
+	50%{ -webkit-transform: translate(0, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+.content1 .area2  .textarea{ width:350px; height:350px; background-color:rgba(225,225,225,0); padding:30px;position:absolute; left:320px; top:110px;-webkit-animation:p201410280615 1.3s;animation:p201410280615 1.3s; }
+@-webkit-keyframes p201410280615{
+	0%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280615{
+	0%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+
+.content1 .area2  .textarea .title{ width:380px;}
+
+/******************************************************************************/
+.content2{width:100%; height:800px;background:url(../img/product/centent2_bg.png) fixed top;}
+.content2 .area1{ width:25%; height:800px;float:left;}
+.content2 .area2{width:75%; height:800px;float:right; background-color:rgba(38,17,0,0.8); position:relative;font-size:12px; color:#fff; letter-spacing:3px;}
+.content2 .area2 .beer1{ display:none;position:absolute; width:560px;top:180px;left:-280px;z-index:10;-webkit-animation:p201410290940 1.3s;animation:p201410290940 1.3s; }
+.content2.hover .area2 .beer1{display:block;}
+@-webkit-keyframes p201410290940{
+	0%{ -webkit-transform: translate(-20px, 10px); opacity:0; }
+	50%{ -webkit-transform: translate(20px, 10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410290940{
+	0%{ -webkit-transform: translate(-20px, 10px); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+.content2 .area2 .wheat2{ display:none;position:absolute; width:280px;top:350px;left:-30px;-webkit-animation:p201410290941 2s;animation:p201410290941 2s;  }
+.content2.hover .area2 .wheat2{display:block;}
+@-webkit-keyframes p201410290941{
+	0%{ -webkit-transform: translate(-30px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-30px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410290941{
+	0%{ -webkit-transform: translate(-30px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-30px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+
+.content2 .area2 .wheat3{display:none; position:absolute; width:30px; top:520px;left:420px;z-index:10;-webkit-animation:p201410290942 2.2s;animation:p201410290942 2.2s; }
+.content2 .area2 .wheat4{display:none; position:absolute; width:30px; top:560px;left:580px;z-index:9;-webkit-animation:p201410290942 2.5s;animation:p201410290942 2.5s; }
+.content2 .area2 .wheat5{display:none; position:absolute; width:30px; top:500px;left:400px;z-index:9;-webkit-animation:p201410290942 2.8s;animation:p201410290942 2.8s; }
+.content2.hover .area2  .wheat3 {display:block;}
+.content2.hover .area2  .wheat4{display:block;}
+.content2.hover .area2  .wheat5 {display:block;}
+@-webkit-keyframes p201410290942{
+	0%{ -webkit-transform: translate(0, -10px); opacity:0; }
+	50%{ -webkit-transform: translate(0, -10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410290942{
+	0%{ -webkit-transform: translate(0, -10px); opacity:0; }
+	50%{ -webkit-transform: translate(0, -10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+.content2 .area2 .box img{width:180px;}
+.content2 .area2 .box p{ display:block;width:180px; margin-left:30px; margin-top:-10px;}
+.content2 .area2 .box.a{display:none;position:absolute; width:200px;height:150px;top:200px;left:80px;z-index:10;-webkit-animation:p201410280601 2s;animation:p201410280601 2s; }
+.content2 .area2 .box.b{display:none;position:absolute; width:200px;height:150px;top:500px;left:140px;z-index:10;-webkit-animation:p201410280601 2.5s;animation:p201410280601 2.5s; }
+.content2.hover .area2  .box.b{display:block;}
+.content2.hover .area2  .box.a{display:block;}
+@-webkit-keyframes p201410280601{
+	0%{ -webkit-transform: translate(0, 0); opacity:0; }
+	50%{ -webkit-transform: translate(0, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280601{
+	0%{ -webkit-transform: translate(0, 0); opacity:0; }
+	50%{ -webkit-transform: translate(0, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+.content2 .area2  .textarea{display:none; width:350px; height:350px; background-color:rgba(225,225,225,0); padding:30px;position:absolute;left:260px; top:110px;-webkit-animation:p201410280600 1.5s;animation:p201410280600 1.5s;  }
+.content2.hover .area2  .textarea{display:block;}
+@-webkit-keyframes p201410280600{
+	0%{ -webkit-transform: translate(0, 10px); opacity:0; }
+	50%{ -webkit-transform: translate(0, 10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280600{
+	0%{ -webkit-transform: translate(0,  10px); opacity:0; }
+	50%{ -webkit-transform: translate(0,  10px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+.content2 .area2  .textarea .title{ width:450px;}
+/******************************************************************************/
+
+.content3{width:100%; height:800px; background-color:rgba(0,0,0,0.3);background:url(../img/product/centent3_bg.png) fixed center;}
+.content3 .area1{ width:25%; height:800px;float:left;}
+.content3 .area2{width:75%; height:800px;float:right; background-color:rgba(0,0,0,0.8); position:relative;font-size:12px; color:#fff; letter-spacing:3px;}
+.content3 .area2 .beer1{display:none; position:absolute; width:220px;top:110px;left:-130px;z-index:10;-webkit-animation:p201410280603 1.3s;animation:p201410280603 1.3s; }
+.content3.hover .area2 .beer1{display:block;}
+@-webkit-keyframes p201410280603{
+	0%{ -webkit-transform: translate(0, 20px); opacity:0; }
+	50%{ -webkit-transform: translate(0, 20px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280603{
+	0%{ -webkit-transform: translate(-10px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-10px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+.content3 .area2 .beer2{ display:none;position:absolute; width:300px;top:500px;left:-20px;z-index:9;-webkit-animation:p201410280604 1.8s;animation:p201410280604 1.8s; }
+.content3.hover .area2 .beer2{display:block;}
+@-webkit-keyframes p201410280604{
+	0%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280604{
+	0%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+.content3 .area2 .box img{width:180px;}
+.content3 .area2 .box p{ display:block;width:180px; margin-left:30px; margin-top:-10px;}
+.content3 .area2 .box.a{display:none;position:absolute; width:200px;height:150px;top:200px;left:80px;z-index:10;-webkit-animation:p201410280605 2s;animation:p201410280605 2s;}
+.content3.hover .area2 .box.a{display:block;}
+.content3 .area2 .box.b{display:none;position:absolute; width:200px;height:150px;top:350px;left:80px;z-index:10;
+-webkit-animation:p201410280605 2.5s;animation:p201410280605 2.5s;}
+.content3.hover .area2 .box.b{display:block;}
+@-webkit-keyframes p201410280605{
+	0%{ -webkit-transform: translate(0, 0); opacity:0; }
+	50%{ -webkit-transform: translate(0, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280605{
+	0%{ -webkit-transform: translate(0, 0); opacity:0; }
+	50%{ -webkit-transform: translate(0, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+
+.content3 .area2  .textarea{display:none; width:350px; height:350px; background-color:rgba(225,225,225,0); padding:30px;position:absolute;left:260px; top:110px;-webkit-animation:p201410280602 1.5s;animation:p201410280602 1.5s;}
+.content3.hover .area2  .textarea{display:block;}
+@-webkit-keyframes p201410280602{
+	0%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280602{
+	0%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(10px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+.content3 .area2  .textarea .title{ width:450px;}
+
+/******************************************************************************/
+
+
+.totem{position:fixed; width:208px;height:100%; left:0px; bottom:0px;background-image:url(../img/totem.png); z-index:1;opacity:1;}
+
+.wheat{position:fixed; width:260px;right:-70px;bottom:-120px;z-index:9;-webkit-animation:p201410280607 3s;animation:p201410280607 3s; }
+@-webkit-keyframes p201410280607{
+	0%{ -webkit-transform: translate(30px, -15px); opacity:0; }
+	50%{ -webkit-transform: translate(30px, -15px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280607{
+	0%{ -webkit-transform: translate(30px, -15px); opacity:0; }
+	50%{ -webkit-transform: translate(30px, -15px); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+.line{position:fixed; width:80px;right:50px;top:170px;z-index:8;-webkit-transform: rotate(50deg);transform: rotate(50deg); opacity:0.6; }
+
+.line img{width:100%;}

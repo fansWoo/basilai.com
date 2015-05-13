@@ -1,0 +1,82 @@
+﻿/*css reset*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*global*/
+
+body{background:url(../img/menu_bg3.png) ; background-size:cover; }
+.content1{width:100%; height:190px; }
+.content2{width:100%; height:1000px; background-color:rgba(0,0,0,0.7); position:relative; }
+.content2  .boxcontent{ position:relative; width:300px; height:500px;margin-left:auto;padding-top:80px;  margin-right:auto;}
+.content2  .boxcontent .pic1{ width:250px;opacity:0.8; margin-left:20px; }
+.content2  .totem{ position:absolute; width:100%;height:100px; left:0px; top:0px;background-image:url(../img/mobile/totem3.png); z-index:1;opacity:0.5;}
+.content2 .boxcontent .textbox{width:300px;height:1000px; padding-bottom:20px;margin-left:auto; margin-right:auto; }
+.content2 .boxcontent  .title{ width:250px; margin-left:20px; margin-top:30px;}
+.content2 .boxcontent .textbox .box{width:280px;  margin-top:20px;position:relative; border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:30px;}
+.leftext .pic{width:300px; margin-bottom:30px; margin-top:40px;}
+.leftext  h2{color:#fff;letter-spacing:3px; font-size:20px; text-align:center;}
+.content2 .boxcontent .textbox .box .leftext{width:290px;}
+.content2 .boxcontent .textbox .box .icon{ position:absolute; top:10px; left:-75px;width:50px;}
+.content2 .boxcontent .textbox .box p{ font-size:13px; color:#fff; letter-spacing:3px; padding-top:10px; line-height:18px; margin-bottom:20px;}
+.wheat{position:fixed; width:200px;right:-110px;top:180px;z-index:9;}
+
+
+.beer{ width:200px; position:absolute; left:50%;margin-top:-50px;margin-left:-200px; z-index:2;}
+.content2 .boxcontent .box_map{width:260px; height:260px; margin-top:50px; padding:10px;border-radius:10px; /*background-image:url(../img/oo.jpg);*/box-shadow:1px 1px 10px rgba(0,0,0,0.3); background-color:rgba(122,122,122,0.5); border:1px solid rgba(255,255,255,0); margin-left:-50px; }
+.content2 .boxcontent .box_map  #user_gmap { overflow:hidden; display:block; width:260px; height:260px; border:1px solid rgba(0,0,0,0.3); float:left;border-radius:10px;margin-top:px;box-shadow:1px 1px 10px rgba(0,0,0,0.5);}
+
+
+
+footer{ width:100%; height:40px; background-color:rgba(0,0,0,1); margin:0 auto; padding-top:20px; }
+footer p{ text-align:center;font-family: 微軟正黑體,Arial;  color:rgba(255,255,255,0.5);font-size:12px;}
+

@@ -1,0 +1,80 @@
+﻿/*css reset*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*global*/
+
+body{ position: fixed;}
+.wrap{ width:100%; height:100%; position:fixed;}
+.wrap .bodyBg{ width:100%;height:100%; position:fixed; top:0px; left:0px; overflow:hidden; background:url(../img/mobile/index_bg1.png) center bottom;}
+.leftbg{ position:fixed; width:320px; height:100%;left:0px;top:0px;background:url(../img/mobile/index_bg2.png) center ;}
+.leftbg .logo{position:fixed;width:100px; left:167px;  top:65px;}
+.logo img{ width:100%;}
+.title{ position:fixed;width:200px;left:15px;top:20px;z-index:2; }
+.title img{ width:100%;}
+.beer{ position:fixed;width:350px;left:50%; margin-left:-40px;top:0px;}
+.beer img{ width:100%;}
+.line{position:fixed;width:120px;left:50%;margin-left:45px;top:0px; opacity:0.8;}
+.line img{ width:100%;}
+.totem{position:fixed; width:100px; height:100%;left:0px;top:0px;background:url(../img/mobile/totem.png)left;opacity:0.5;}
+.bottomLight{position:fixed; width:100%; height:100px;left:0px;bottom:0px;background:url(../img/mobile/light.png) bottom;}
+
+.nav1{ width:150px; height:175px; position:fixed;left:20px;top:300px;z-index:6; 
+border-left:1px solid rgba(255,255,255,0.6); }
+.nav1 a{display:block;}
+.nav1 .li{ width:150px; height:40px;color:#fff; letter-spacing:3px; padding-left:20px; font-size:14px; position:relative; line-height:50px; margin-left:10px; margin-top:-5px;}
+.nav1 .li .rhombic{ width:10px;position:absolute; top:15px;left:0px;}
+.nav1 .li:hover{opacity:1;}
+
+.footer1{ width:280px; height:40px; position:fixed; left:50%; margin-left:-140px; margin-top:600px;color:rgba(255,255,255,0.8); font-size:13px; z-index:10; text-align:center; opacity:0.6; line-height:16px; letter-spacing:2px;}
+.footer1 a{ color:#19b6e9;text-decoration:underline; }

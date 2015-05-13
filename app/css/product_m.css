@@ -1,0 +1,113 @@
+﻿/*css reset*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*global*/
+
+body{ background-image:url(../img/bg5.jpg) ; background-size:cover;  }
+body p{ font-family: 微軟正黑體,Arial; }
+body h2{ font-family: 微軟正黑體,Arial; }
+.content1{width:100%; height:1100px;background:url(../img/mobile/centent1_bg.png) center; background-size:cover;padding-top:100px;position:relative; overflow:hidden;}
+.content1 .area2{width:100%; height:800px; background-color:rgba(27,27,27,0.9); position:absolute;font-size:12px; color:#fff; letter-spacing:3px;left:0px;bottom:0px; line-height:14px;}
+.content1 .area2 .beer1{ position:absolute; width:360px; left:50%; margin-left:-170px; margin-top:-270px;z-index:10;}
+.content1 .area2 .beer2{ position:absolute; width:210px; top:130px;left:-150px;z-index:11;}
+.content1 .area2 .wheat2{ position:absolute; width:400px; top:480px;left:0px;z-index:9;}
+.content1 .area2 .box img{width:180px;}
+.content1 .area2  .textarea{ width:300px; height:250px; background-color:rgba(225,225,225,0); padding:30px;margin-left:auto; margin-right:auto; margin-top:140px; margin-bottom:50px;}
+.content1 .area2  .textarea .title{ width:300px;margin-bottom:10px;}
+.content1 .area2  .box{width:300px;margin-left:auto;margin-right:auto; margin-top:30px;border-top:1px solid rgba(255,255,255,0.4); padding-top:15px;}
+.content3 .area2  .box p{margin-left:20px;}
+/******************************************************************************/
+.content2{width:100%; height:1100px;background:url(../img/mobile/centent2_bg.png) top right;position:relative; overflow:hidden;background-size:cover}
+.content2 .area2{width:100%; height:800px;background-color:rgba(38,17,0,0.8); position:absolute;font-size:12px; color:#fff; letter-spacing:3px; left:0px;bottom:0px;line-height:14px;}
+.content2 .area2 .beer1{ position:absolute; width:420px; left:50%; margin-left:-240px; margin-top:-250px;z-index:10;}
+.content2 .area2 .wheat2{ position:absolute; width:280px;top:350px;left:-30px; }
+.content2 .area2 .wheat3{ position:absolute; width:30px; top:520px;left:420px;z-index:10; }
+.content2 .area2 .wheat4{ position:absolute; width:30px; top:560px;left:580px;z-index:9;}
+.content2 .area2 .wheat5{position:absolute; width:30px; top:500px;left:400px;z-index:9;}
+.content2 .area2 .box img{width:180px;}
+.content2 .area2  .textarea{width:300px; height:250px; background-color:rgba(225,225,225,0); padding:30px;margin-left:auto; margin-right:auto; margin-top:140px;margin-bottom:50px;}
+.content2 .area2  .textarea .title{ width:300px;margin-bottom:10px;}
+.content2 .area2  .box{width:300px;margin-left:auto;margin-right:auto; margin-top:30px;border-top:1px solid rgba(255,255,255,0.4); padding-top:15px;}
+.content3 .area2  .box p{margin-left:20px;}
+/******************************************************************************/
+
+.content3{width:100%; height:1100px; background-color:rgba(0,0,0,0.3);background:url(../img/mobile/centent3_bg.png) right;position:relative; overflow:hidden;background-size:cover}
+.content3 .area2{width:100%; height:800px;background-color:rgba(0,0,0,0.8); position:absolute;font-size:12px; color:#fff; letter-spacing:3px;left:0px;bottom:0px;line-height:14px;}
+.content3 .area2 .beer1{ position:absolute; width:300px; left:50%; margin-left:-170px; margin-top:-285px;z-index:10; }
+.content3 .area2 .box img{width:180px;}
+.content3 .area2  .textarea{width:300px; height:250px; background-color:rgba(225,225,225,0); padding:30px; margin-left:auto; margin-right:auto; margin-top:140px;margin-bottom:50px;}
+.content3 .area2  .textarea .title{ width:300px; margin-bottom:10px;}
+.content3 .area2  .box{width:300px;margin-left:auto;margin-right:auto; margin-top:30px; border-top:1px solid rgba(255,255,255,0.4); padding-top:15px;}
+.content3 .area2  .box p{margin-left:20px;}
+
+
+/******************************************************************************/
+
+
+.totem{position:absolute; width:100%;height:100px; left:0px; top:0px;background-image:url(../img/mobile/totem3.png); z-index:1;opacity:0.6;}
+.wheat{position:fixed; width:180px;right:-70px;bottom:-30px;z-index:999; }
+.wheat img{width:100%;}
+
+
+
+
+
+
+
+
+
+
+footer{ width:100%; height:40px; background-color:rgba(0,0,0,1); margin:0 auto; padding-top:20px; }
+footer p{ text-align:center;font-family: 微軟正黑體,Arial;  color:rgba(255,255,255,0.5);font-size:12px;}
+

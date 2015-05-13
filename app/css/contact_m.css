@@ -1,0 +1,80 @@
+﻿/*css reset*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*global*/
+
+body{background:url(../img/mobile/contact_bg1.jpg) fixed ;  }
+.content1{width:100%; height:200px;  overflow:hidden;}
+.content2{width:100%; height:980px; background-color:rgba(27,27,27,0.8); position:relative; overflow:hidden;}
+.content2  .boxcontent{ position:relative; width:300px; height:700px;padding-top:50px; margin-left:auto; margin-right:auto;}
+
+.content2  .totem{ position:absolute; width:100%;height:100px; left:0px; top:0px;background-image:url(../img/mobile/totem3.png); z-index:1;opacity:0.5;}
+.content2 .boxcontent .textbox{width:300px;height:330px; padding-bottom:20px; border-left:1px solid rgba(255,255,255,0.5);position:absolute; left:50%;margin-left:-100px; padding-left:10px;}
+.content2 .boxcontent  .title{ width:250px;margin-bottom:40px;}
+.content1 .boxarea .textarea .box{ width:300px; height:60px; border-bottom:1px solid rgba(255,255,255,0.5); padding-top:10px;}
+.content2 .boxcontent .textbox .box .icon{ position:absolute; top:px; left:-60px;width:50px;}
+.content2 .boxcontent .textbox .box .leftext{width:200px;height:120px;}
+.content2 .boxcontent .textbox .box .leftext.a{width:200px;}
+.content2 .boxcontent .textbox .box .leftext.a p{width:200px;padding-bottom:10px;padding-top:10px;}
+.content2 .boxcontent .textbox .box .leftext.b{ padding-top:10px;height:70px; }
+.content2 .boxcontent .textbox .box .leftext.c{padding-top:10px;  height:70px;}
+
+.content2 .boxcontent .textbox .box .leftext.d{padding-top:20px; height:60px;}
+.content2 .boxcontent .textbox .box p{font-size:14px; color:#fff; letter-spacing:3px;line-height:18px;}
+.wheat{position:fixed; width:200px;right:-100px;bottom:210px;z-index:9;}
+.wheat img{width:100%}
+
+
+.content2 .boxcontent .box_map{width:260px; height:260px; margin-top:50px; padding:10px;border-radius:10px; /*background-image:url(../img/oo.jpg);*/box-shadow:1px 1px 10px rgba(0,0,0,0.3); background-color:rgba(122,122,122,0.5); border:1px solid rgba(255,255,255,0); margin-left:-50px; }
+.content2 .boxcontent .box_map  #user_gmap { overflow:hidden; display:block; width:260px; height:260px; border:1px solid rgba(0,0,0,0.3); float:left;border-radius:10px;margin-top:px;box-shadow:1px 1px 10px rgba(0,0,0,0.5);}

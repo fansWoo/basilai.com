@@ -1,0 +1,31 @@
+.content1{width:100%; height:980px; background:url(../img/index_bg1.jpg) center;position:relative; overflow:hidden;}
+.content1 .boxarea2{width:100%; height:400px;}
+.content1 .boxarea{width:100%; height:580px;background-image:url(../img/ie8/bg6.png);overflow:hidden; }
+.content1 .boxarea .beer{ width:500px; position:absolute;left:50%; margin-left:-600px; margin-top:-140px;z-index:2;}
+.content1 .boxarea .text{ width:300px; position:absolute;left:50%; margin-left:-80px; margin-top:-60px;}
+.content1 .boxarea .textarea{width:450px; height:400px;position:absolute;left:50%; margin-left:-80px; margin-top:-170px;}
+.content1 .boxarea .totem{width:100%;height:208px; background-image:url(../img/store/totem.png); }
+.content1 .boxarea .textarea .title{width:300px; margin-bottom:15px;}
+.content1 .boxarea .textarea .pic7{width:280px; height:180px;overflow:hidden; margin-bottom:10px; position:relative;}
+.content1 .boxarea .textarea .pic7 img{width:100%;}
+.content1 .boxarea .textarea .pic7 .border2{position:absolute;top:0px; left:0px; opacity:0.5;-webkit-transition:opacity 1s;transition:opacity 1s;}
+.content1 .boxarea .textarea:hover  .border2{opacity:1;}
+.content1 .boxarea .textarea .box{ width:200px; height:60px; border-bottom:1px solid #8c8c8c; padding-top:10px;}
+.content1 .boxarea .textarea p{ display:block; width:350px;font-size:15px; line-height:24px; color:#fff;letter-spacing:3px;} 
+
+
+.content2{width:100%; height:1150px; background-color:rgba(0,0,0,1); background:url(../img/store/content2_bg.jpg) left; }
+.content2 .boxarea{ width:900px; height:700px; margin:0 auto; padding-top:100px;color:#fff;}
+.content2 .boxarea p{color:#fff;letter-spacing:3px; font-size:12px;}
+.content2 .boxarea .pic1{display:block; margin:0 auto;margin-bottom:10px; opacity:0.4;}
+.content2 .boxarea h2{margin-bottom:5px; font-size:18px;letter-spacing:5px;}
+
+.content2 .boxarea .boxtop{width:650px;height:500px; margin:50px auto; }
+.content2 .boxarea .boxtop .box{width:280px; height:290px;float:left; margin-left:30px;}
+.content2 .boxarea .boxtop .box p{ margin-top:5px;}
+.content2.hover .boxarea .boxtop .box{display:block;}
+
+.content2 .boxarea .boxtop .box .pic{width:280px; height:180px;float:left; background-color:rgba(255,255,255,0.1); margin-bottom:20px;overflow:hidden;position:relative;}
+.content2 .boxarea .boxtop .box .pic .border{position:absolute;top:0px; left:0px;}
+.content2 .boxarea .boxtop .box .pic img{width:100%;}
+.content2 .boxarea .boxtop .box:hover  .pic img{width:100%; }

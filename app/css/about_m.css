@@ -1,0 +1,84 @@
+﻿/*css reset*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*global*/
+
+body{ background-color:#000;  }
+body p{ font-family: 微軟正黑體,Arial; }
+body h2{ font-family: 微軟正黑體,Arial; }
+.section1{width:100%;  height:1130px;margin:0 auto; overflow:hidden;background: url(../img/mobile/about_bg1.jpg) 50% 50% ; position:relative; background-size:cover;  }
+.section1 .table{width:100%;  height:900px;position:absolute; top:232px; left:40px; background:url(../img/mobile/beer_table.png) right bottom no-repeat;z-index;1; }
+.section1  .textbox{ width:290px;height:850px;position:absolute; left:50%; margin-left:-160px; margin-top:150px;padding:30px 10px 10px; background-color:rgba(0,0,0,0.8); padding-left:20px;z-index;3;  }
+.section1  .textbox .title {width:180px; margin-left:90px;}
+.section1  .textbox .logo{position:absolute; width:90px;left:15px;z-index;99;}
+.section1 .textbox .p1{ font-size:18px; border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:10px;}
+.section1  .textbox p{ display:block; width:270px; color:#fff; letter-spacing:3px; line-height:18px;font-size:12px;margin-top:20px;}
+ 
+.linebox{width:100%;height:1px;background-color:rgba(255,255,255,0.7); }
+.content2{width:100%; height:1150px;background:url(../img/ie8/about_bg4.jpg); background-position:top; background-size:auto; position:relative; overflow:hidden;}
+.totem{position:absolute; width:100%;height:100px; left:0px; top:0px;background:url(../img/mobile/totem3.png)left; opacity:0.5;z-index;1;}
+html.agent-ie .content2{background:url(../img/about_bg2.jpg); background-size:cover;}
+.content2  .contentArea{ width:320px;height:920px;position:absolute;background-color:rgba(0,0,0,0.8);  left:50%; margin-left:-160px; z-index:1; margin-top:120px;line-height:18px; letter-spacing:3px; padding-top:30px;z-index:3; }
+.content2  .beer2{position:absolute;width:350px;left:50%; margin-left:-100px; margin-top:830px;z-index:1; }
+.content2.hover  .beer2{display:block;}
+.content2  .contentArea .videobox{ width:280px; height:180px; background-color:rgba(255,255,255,0.2); margin:20px  auto 0px auto;}
+.content2  .contentArea .logo{width:90px; position:absolute; top:30px; right:-30px;}
+.content2  .contentArea .p1{ display:block;width:280px;margin:20px auto;color:#fff;font-size:12px; padding-bottom:20px; border-bottom:1px solid rgba(255,255,255,0.3);}
+.content2  .contentArea h2{display:block;color:#fff; font-size:20px;width:165px;margin-top:30px; margin-left:20px; line-height:33px;}
+.content2  .contentArea .picbox{width:290px; height:380px;margin:30px  auto 30px auto; padding-left:3px;}
+.content2  .contentArea .picbox .pic{float:left; width:85px;height:50px; margin:5px;opacity:0.6;overflow:hidden;}
+.content2  .contentArea .picbox .pic  img{width:100%;}
+.content2  .contentArea .picbox .pic:hover{opacity:1;}
+
+

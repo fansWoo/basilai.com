@@ -1,0 +1,28 @@
+body{background:url(../img/menu_bg3.png) fixed; background-size:auto; }
+.out{width:900px; height:1250px;position:relative;margin:0 auto; }
+.out .content2{width:900px; height:1250px; margin:0 auto;position:absolute;left:0px;background-color:rgba(0,0,0,0.85);  top:0px;z-index:2; }
+.out .content2  .boxcontent{ position:relative; width:550px; height:800px; padding-top:150px; margin:0 auto; padding-left:30px; }
+.out .content2  .boxcontent .pic1{ margin-left:105px;opacity:0.4;}
+.out .content2 .boxcontent .textbox{width:500px;height:900px;margin:0 auto;  }
+.out .content2 .boxcontent  .title{ display:block;width:300px; margin:0 auto;}
+.out .content2 .boxcontent .textbox .box{width:500px;  margin-top:30px;position:relative; border-bottom:1px solid rgba(255,255,255,0.2);padding-bottom:10px; }
+.leftext .pic{width:450px; margin-bottom:30px; margin-top:40px;}
+.leftext  h2{color:#fff;letter-spacing:3px; font-size:24px; text-align:center;}
+.out .content2 .boxcontent .textbox .box .icon{ position:absolute; top:10px;width:70px;}
+.out .content2 .boxcontent .textbox .box p{ font-size:12px; line-height:22px;color:#fff; letter-spacing:3px; padding-top:25px;  padding-bottom:30px; padding-top:30px;}
+.out .content2 .beer{ position:absolute; width:300px;right:-140px;top:250px; z-index:2;}
+.out .content2 .beer2{position:absolute; width:200px;left:-80px;bottom:150px; z-index:2;}
+.out .wheat{ position:absolute; width:250px;right:-250px;top:250px; z-index:1;-webkit-animation:p201410280528 1.5s;animation:p201410280528 1.5s;}
+@-webkit-keyframes p201410280528{
+	0%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+@keyframes p201410280528{
+	0%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	50%{ -webkit-transform: translate(-20px, 0); opacity:0; }
+	100%{ -webkit-transform: translate(0, 0); opacity:1; }
+}
+
+.totem2{ position:fixed; width:208px; height:1300px;right:0px; bottom:0px;background-image:url(../img/index_pic3.png); opacity:0.6;}
+.totem1{ position:absolute; width:208px;height:1300px;left:0px; bottom:0px;background-image:url(../img/totem.png);opacity:0.4;}

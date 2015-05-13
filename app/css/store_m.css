@@ -1,0 +1,96 @@
+﻿/*css reset*/
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*global*/
+
+body{ background-image:url(../img/bg5.jpg) ; background-size:cover; line-height:14px;  }
+body p{ font-family: 微軟正黑體,Arial; }
+body h2{ font-family: 微軟正黑體,Arial; }
+
+
+.content1{width:100%; height:820px;  background:url(../img/index_bg1.jpg) fixed center;position:relative; overflow:hidden;}
+.content1 .boxarea{width:100%; height:550px;background-color:rgba(0,0,0,0.6);position:absolute; bottom:0px; left:0px; }
+.content1 .boxarea .beer{ width:150px; position:absolute;left:-50px;top:-150px;z-index:2;}
+.content1 .boxarea .text{ width:240px; position:absolute;left:50%; margin-left:-80px; margin-top:-50px;}
+.content1 .boxarea .textarea{width:250px; height:400px;position:absolute;left:50%; margin-left:-140px; margin-top:-50px;-webkit-animation:p201410280532 1.5s;animation:p201410280532 1.5s;z-index:3;}
+.content1 .boxarea .totem{width:100%;height:100px; background-image:url(../img/mobile/totem3.png);opacity:0.5; }
+.content1 .boxarea .textarea .title{width:230px; margin-bottom:20px;}
+.content1 .boxarea .textarea .pic7{width:280px; height:180px;overflow:hidden; margin-bottom:10px; position:relative;}
+.content1 .boxarea .textarea .pic7 img{width:100%;}
+.content1 .boxarea .textarea .pic7 .border2{position:absolute;top:0px; left:0px; opacity:1;}
+
+.content1 .boxarea .textarea .box{ width:200px; height:60px; border-bottom:1px solid rgba(255,255,255,0.5); padding-top:10px;}
+.content1 .boxarea .textarea .box .p1{ font-size:18px;}
+.content1 .boxarea .textarea p{ display:block; width:350px;font-size:14px; line-height:24px; color:#fff;letter-spacing:3px;} 
+
+
+.content2{width:100%; height:1950px; background-color:rgba(0,0,0,1); background:url(../img/store/content2_bg.jpg)  fixed top; }
+.content2 .boxarea{ width:350px; height:700px; margin:0 auto; padding-top:100px;color:#fff;}
+.content2 .boxarea p{color:#fff;letter-spacing:3px; font-size:14px;line-height:18px;}
+.content2 .boxarea .pic1{display:block; margin:0 auto;margin-bottom:10px; opacity:0.4;}
+.content2 .boxarea h2{margin-bottom:8px; font-size:14px;letter-spacing:5px;}
+
+.content2 .boxarea .boxtop{width:350px;height:500px; margin:50px auto; }
+.content2 .boxarea .boxtop .box{width:280px; height:280px;margin:0px auto;}
+.content2 .boxarea .boxtop .box p{ margin-top:5px;}
+.content2.hover .boxarea .boxtop .box{display:block;}
+
+.content2 .boxarea .boxtop .box .pic{width:280px; height:180px;float:left; background-color:rgba(255,255,255,0.1); margin-bottom:20px;overflow:hidden;position:relative;}
+.content2 .boxarea .boxtop .box .pic .border{position:absolute;top:0px; left:0px; opacity:0.5; -webkit-transition:opacity 1s;transition:opacity 1s;}
+.content2 .boxarea .boxtop .box:hover .border{opacity:1;}
+.content2 .boxarea .boxtop .box .pic img{width:100%;}
+.content2 .boxarea .boxtop .box:hover  .pic img{width:100%;}
+
+
+

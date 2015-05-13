@@ -1,0 +1,29 @@
+
+.content1{width:100%; height:1000px;background-image:url(../img/about_bg1.jpg); background-position:right; background-size:auto; position:relative; overflow:hidden; }
+
+
+.content1 .table{ position:absolute; width:580px;left:50%; margin-left:-680px; margin-top:840px;z-index:2; }
+.totem{ position:absolute; width:208px;height:2300px;  left:0px;top:0px;background-image:url(../img/totem.png); z-index:7; opacity:0.7;}
+.content1 .beer{ position:absolute; width:210px;left:50%; margin-left:-430px; margin-top:450px;z-index:4;}
+.content1 .light{ position:absolute;  left:0px; bottom:-240px;z-index:3; }
+.content1 .shadow{position:absolute; width:570px; left:50%; margin-left:-805px; margin-top:895px;z-index:2;}
+.content1 .wheat{position:absolute;  left:50%; margin-left:-505px; margin-top:395px;z-index:1;}
+.content1 .textbox{ width:650px; height:800px; background-image:url(../img/ie8/bg1.png); position:absolute; left:50%; margin-left:-120px; z-index:1; margin-top:130px;}
+.content1 .textbox .title {width:280px;}
+.content1 .textbox .logo{ width:130px;margin-left:-80px; margin-top:30px;}
+.content1 .textbox .p1{ font-size:18px; border-bottom:1px solid rgba(255,255,255,0.15); padding-bottom:10px;}
+.content1 .textbox p{ display:block; width:530px; color:#fff; letter-spacing:3px; line-height:22px;font-size:14px;
+margin-top:20px; margin-left:70px;}
+
+.linebox{width:100%;height:1px;background:#a8a8a8; }
+.content2{width:100%; height:1300px;background:url(../img/ie8/about_bg3.jpg); background-position:top; background-size:cover; position:relative; overflow:hidden;}
+.content2  .contentArea{ width:750px;height:1080px;position:absolute;background-image:url(../img/ie8/bg1.png);  left:50%; margin-left:-500px; z-index:1; margin-top:120px;line-height:18px; letter-spacing:3px; padding-top:30px; }
+.content2  .beer2{position:absolute; width:500px;left:50%; margin-left:160px; margin-top:350px;z-index:4;  }
+.content2  .contentArea .videobox{ width:550px; height:350px; background-color:#222222; margin:30px  auto 30px auto;}
+.content2  .contentArea .logo{width:130px; position:absolute; top:80px; right:-70px;}
+.content2  .contentArea .p1{ display:block;width:550px;margin:0 auto;color:#fff;font-size:12px; padding-bottom:30px; border-bottom:1px solid #8d8d8d;}
+.content2  .contentArea h2{display:block;color:#fff; font-size:20px;width:350px; margin-left:100px; margin-top:30px;}
+.content2  .contentArea .picbox{width:560px; height:400px;margin:30px  auto 30px auto;}
+.content2  .contentArea .picbox .pic{float:left; width:130px;height:80px;margin:5px;overflow:hidden;}
+.content2  .contentArea .picbox .pic img{ width:100%;}
+.content2  .contentArea .picbox .pic:hover{}

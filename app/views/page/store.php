@@ -49,16 +49,50 @@ $(function(){
 		
 		<div class="boxarea">
 			<img src="app/img/store/pic1.png" class="pic1">
-				<div class="boxtop">	
+				<div class="boxtop">
 				<div class="box">
 					<div class="pic">
-						<img src="app/img/store/pic1.jpg">
+						<img src="app/img/store/pic10.jpg">
 						<img src="app/img/store/border2.png" class="border">
 					</div>
-					<h2>樂酌</h2>
-					<p>新北市板橋區長江路二段126號</p> 
-					<p>TEL:02-22518080 </p>
+					<h2>Giwas Ali</h2>
+					<p>花蓮縣秀林鄉景美村加灣 216號</p>
+					<p>TEL:03-8263333</p>
 				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic11.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>樂活海鮮廣場</h2>
+					<p>花蓮市和平路506號</p>
+					<p>TEL:03-8361302</p>
+				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic12.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>哦一夕海鮮Bar</h2>
+					<p>花蓮自強夜市</p>
+				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic13.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>辣哥烤肉串燒</h2>
+					<p>花蓮市中華路187號</p>
+				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic14.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>SOCIAL</h2>
+					<p>花蓮縣花蓮市林森路431號</p>
+					<p>TEL:03-8355-008</p>
+				</div>				
 				<div class="box">
 					<div class="pic">
 						<img src="app/img/store/pic2.jpg">
@@ -84,6 +118,15 @@ $(function(){
 					<h2>鐵道文化館</h2>
 					<p>花蓮縣花蓮市中山路71號</p>
 					<p>TEL:03-8338061</p>
+				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic1.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>樂酌</h2>
+					<p>新北市板橋區長江路二段126號</p> 
+					<p>TEL:02-22518080 </p>
 				</div>
 				<div class="box">
 					<div class="pic">
@@ -121,6 +164,23 @@ $(function(){
 					<p>台北市新北市板橋區仁愛路2號</p>
 					<p>TEL:02-27069818</p>
 				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic15.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>樂騵日式串燒</h2>
+					<p>松山區八德路四段453巷14號</p>
+					<p>TEL:02-2766-5865</p>
+				</div>
+				<div class="box">
+					<div class="pic">
+						<img src="app/img/store/pic17.jpg">
+						<img src="app/img/store/border2.png" class="border">
+					</div>
+					<h2>哪招串燒</h2>
+					<p>新竹東大路一段175號</p>
+				</div>	
 			</div>
 		</div>
 	

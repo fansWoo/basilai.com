@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-	<title>巴斯萊手工鮮釀啤酒 - Baisilai</title>
+	<title>巴斯萊手工鮮釀啤酒 - Basilai</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 	<meta name="keywords" content="網頁設計、fansWoo design,網頁設計,網站設計,網頁設計公司,台北網頁設計,瘋沃網頁設計" />
 	<meta name="keywords" content="中小型企業形象網站網頁設計瘋沃科技網頁設計公司提供最優質的網頁設計、網站架設、多媒體網頁設計等多項服務. 我們的客戶來自於各行各業，以最全面性的服務來滿足您對於網頁設計的需求。" />
